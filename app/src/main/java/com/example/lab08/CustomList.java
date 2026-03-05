@@ -27,10 +27,10 @@ public class CustomList {
         cities.remove(city);
     }
 
-    //public int countCities() {
+    public int countCities() {
         //intentional error for failed build
-        //shkghakg
+        shkghakg
         //intentional error for failed build
-        //return cities.size();
-    //}
+        return cities.size();
+    }
 }

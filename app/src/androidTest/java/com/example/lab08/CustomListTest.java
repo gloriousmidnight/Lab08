@@ -27,13 +27,13 @@ public class CustomListTest {
         assertFalse(list.hasCity(city));
     }
 
-    //@Test
-    //public void testCountCities() {
-        //CustomList list = new CustomList();
-        //City city = new City("Vancouver", "BC");
-        //list.addCity(city);
-        //assertEquals(1, cityList.countCities());
-        //list.addCity(new City("Red Deer", "AB"));
-        //assertEquals(2, cityList.countCities());
-    //}
+    @Test
+    public void testCountCities() {
+        CustomList list = new CustomList();
+        City city = new City("Vancouver", "BC");
+        list.addCity(city);
+        assertEquals(1, list.countCities());
+        list.addCity(new City("Red Deer", "AB"));
+        assertEquals(2, list.countCities());
+    }
 }
