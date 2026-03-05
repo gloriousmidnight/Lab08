@@ -28,9 +28,6 @@ public class CustomList {
     }
 
     public int countCities() {
-        //intentional error for failed build
-        shkghakg
-        //intentional error for failed build
         return cities.size();
     }
 }
