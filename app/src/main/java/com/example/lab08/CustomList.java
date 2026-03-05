@@ -22,11 +22,11 @@ public class CustomList {
 
     public void deleteCity(City city) {
         // line for intentional failing
-        //ghahgjkshkjag
+        ghahgjkshkjag
         // line for intentional failing
-        //if (!hasCity(city)) {
-            //throw new IllegalArgumentException();
-        //}
-        //cities.remove(city);
+        if (!hasCity(city)) {
+            throw new IllegalArgumentException();
+        }
+        cities.remove(city);
     }
 }
