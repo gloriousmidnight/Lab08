@@ -19,4 +19,14 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+
+    public void deleteCity(City city) {
+        // line for intentional failing
+        //ghahgjkshkjag
+        // line for intentional failing
+        //if (!hasCity(city)) {
+            //throw new IllegalArgumentException();
+        //}
+        //cities.remove(city);
+    }
 }
