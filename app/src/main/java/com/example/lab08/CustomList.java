@@ -21,12 +21,16 @@ public class CustomList {
     }
 
     public void deleteCity(City city) {
-        // line for intentional failing
-        ghahgjkshkjag
-        // line for intentional failing
         if (!hasCity(city)) {
             throw new IllegalArgumentException();
         }
         cities.remove(city);
     }
+
+    //public int countCities() {
+        //intentional error for failed build
+        //shkghakg
+        //intentional error for failed build
+        //return cities.size();
+    //}
 }
